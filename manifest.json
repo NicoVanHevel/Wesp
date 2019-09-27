@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+    "name": "Howesp",
+    "description": "Free the bees matje",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+            
+        }
+    ],
+    "icons": { "16": "logo.png",
+        "48": "logo.png",
+       "128": "logo.png" }
+}
